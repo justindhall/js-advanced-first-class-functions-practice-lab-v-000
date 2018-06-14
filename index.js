@@ -32,4 +32,6 @@ function driversByName(drivers){
     return a.localecompare(b);
   }
   
+  drivers.sort(nameSort);
+  
 }
