@@ -45,3 +45,11 @@ function totalRevenue(drivers) {
   return totalRevenue;
 
 }
+
+function averageRevenue(drivers) {
+  
+  const totalRevenue = totalRevenue(drivers);
+  
+  return totalRevenue / drivers.length;
+  
+}
