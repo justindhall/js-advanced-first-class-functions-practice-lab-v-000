@@ -29,7 +29,7 @@ function driversByRevenue(drivers){
 function driversByName(drivers){
   
   const nameSort = function (a, b) {
-    return a.localecompare(b);
+    return a.localeCompare(b);
   }
   
   drivers.sort(nameSort);
