@@ -24,6 +24,6 @@ function driversByRevenue(drivers){
     return num1 - num2;
   }
   
-  return
+  return drivers.sort(revenueSort);
   
 }
